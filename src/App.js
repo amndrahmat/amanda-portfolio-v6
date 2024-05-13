@@ -1,18 +1,18 @@
 import React from "react";
+import Footer from "./components/footer/footer";
+import "./App.css";
 import "./index.css";
 import Home from "./pages/Home";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Router>
-        {/* <Switch>
+        <Switch>
           <Route path="/" exact component={Home} />
-        </Switch> */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        </Switch>
+        <Footer />
       </Router>
     </>
   );
