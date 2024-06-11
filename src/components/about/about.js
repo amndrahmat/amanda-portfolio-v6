@@ -10,30 +10,18 @@ const About = () => {
   return (
     <section id="about">
       <TypeAnimation
-          sequence={[
-            "Get",
-            2000,
-            "Get To Know",
-            2000,
-            "Get To Know More",
-            2000,
-          ]}
-          wrapper="h5"
-          cursor={false}
-          repeat={Infinity}
-        />
+        sequence={["Get", 2000, "Get To Know", 2000, "Get To Know More", 2000]}
+        wrapper="h5"
+        cursor={false}
+        repeat={Infinity}
+      />
 
-        <TypeAnimation
-          sequence={[
-            "About",
-            2000,
-            "About Me",
-            2000,
-          ]}
-          wrapper="h2"
-          cursor={false}
-          repeat={Infinity}
-        />
+      <TypeAnimation
+        sequence={["About", 2000, "About Me", 2000]}
+        wrapper="h2"
+        cursor={false}
+        repeat={Infinity}
+      />
       <div className="container about_me_container">
         <div className="about_me">
           <div className="about_me-image">
@@ -42,7 +30,7 @@ const About = () => {
         </div>
         <div className="about_content">
           <div className="about_cards">
-          <article className="about_card">
+            <article className="about_card">
               <FiUsers className="about_icon" />
               <h5>Education</h5>
               <small>S.Tr.T Telecommunication Engineering</small>
@@ -65,21 +53,28 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a fullstack developer currently working at Astra International
-            Company, a large scale Product Information Management system using
-            React, NodeJS, TypeScript, HTML, LESS, Git, Jira & Material UI. My
-            daily responsibilities center around creating and maintaining user
-            interfaces that comunicating and exchanging data with API's as well
-            as creating and designing an effective user experience.
+            I am a Mid-Level Full-stack Developer who works on both frontend and
+            backend development processes. With 3+ years of experience creating
+            and developing websites. I have experience working on three large
+            projects for Astra International company.
           </p>
           <p>
-            Passionate full-stack developer with 3 years of experience building
-            web applications. Success in managing development projects using
-            scrum, agile, and lean processes. Skilled at conceptualizing,
-            designing, developing, and deploying software containing logical and
-            mathematical solutions to business problems. Dedicated to driving
-            innovation with the ability to follow industry and technological
-            trends and facilitate early adoption of innovations.
+            I made the decision to change careers in the IT field because
+            software engineer or programmer is a career that many people have
+            dreamed of and I find happiness in the things I do in this role,
+            particularly in developing websites.
+          </p>
+          <p>
+            Throughout my career, I have attended various programmer training
+            courses that can build my skill set so that I have received various
+            certifications, one of which is Frontend Developer Expert at
+            Dicoding Academy.
+          </p>
+          <p>
+            Beyond my professional pursuits, I am deeply committed to improving
+            my skill set. Currently, I am working freelance as a Frontend
+            developer. I am dedicated to gaining a deeper understanding of
+            backend and cloud computing.
           </p>
           <p></p>
           <a href="#contact" className="btn btn-primary">
